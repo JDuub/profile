@@ -1,0 +1,100 @@
+body {
+  background: #d5e2e2;
+  color: #892121;
+  font-family: comfortaa;
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+a {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: #362FD9;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: #d92fa6;
+  font-weight: 700;
+  font-size: 20px;
+  transition: 550ms;
+}
+
+h1, h2, h3 {
+  font-family: comfortaa;
+  color: #876a1b;
+  text-shadow: 3px 3px 6px black;
+  text-decoration: dotted;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px #716f71;
+}
+
+.card_button {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border-style: double;
+  box-shadow: 3px 3px 5px;
+  font-size: 20px;
+}
+
+.card_h1 {
+  padding: 30px;
+  border-radius: 50%;
+  border-style: groove;
+  box-shadow: 3px 3px 5px;
+  background-color: rgb(185, 157, 173);
+}
+
+.box_text {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px lightgray;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  background-color: antiquewhite;
+  padding-bottom:  30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  box-shadow: 10px 10px 10px rgb(208, 200, 200);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
